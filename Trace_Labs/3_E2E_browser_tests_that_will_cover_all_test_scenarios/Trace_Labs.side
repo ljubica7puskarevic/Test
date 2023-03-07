@@ -1,0 +1,1735 @@
+{
+  "id": "a8d4886c-c8a8-4003-aa23-ed73b46cfba9",
+  "version": "2.0",
+  "name": "Trace_Labs",
+  "url": "https://etherscan.io/register",
+  "tests": [{
+    "id": "ca456ecf-7016-4a6f-b98a-f76d1732b869",
+    "name": "Successful registration",
+    "commands": [{
+      "id": "8e1fadab-7153-4c90-ba99-da9d468d9fdb",
+      "comment": "",
+      "command": "open",
+      "target": "https://etherscan.io/register",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6fe3b63b-dfa1-4a30-bdeb-58fdd3bf09d9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "634bbbeb-46a6-4399-a5bd-2d09be758cc1",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContentPlaceHolder1_txtUserName",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtUserName", "id"],
+        ["name=ctl00$ContentPlaceHolder1$txtUserName", "name"],
+        ["css=#ContentPlaceHolder1_txtUserName", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_txtUserName']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "297901af-d4f3-48a0-b69a-d48aa9764b34",
+      "comment": "",
+      "command": "type",
+      "target": "id=ContentPlaceHolder1_txtUserName",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtUserName", "id"],
+        ["name=ctl00$ContentPlaceHolder1$txtUserName", "name"],
+        ["css=#ContentPlaceHolder1_txtUserName", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_txtUserName']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "ljubica7puskarevic"
+    }, {
+      "id": "57180ac6-c423-4c15-baba-2f08924d9129",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContentPlaceHolder1_txtEmail",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtEmail", "id"],
+        ["name=ctl00$ContentPlaceHolder1$txtEmail", "name"],
+        ["css=#ContentPlaceHolder1_txtEmail", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_txtEmail']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "85e1f95f-ada3-42ea-ad0c-b4d888e7dc63",
+      "comment": "",
+      "command": "type",
+      "target": "id=ContentPlaceHolder1_txtEmail",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtEmail", "id"],
+        ["name=ctl00$ContentPlaceHolder1$txtEmail", "name"],
+        ["css=#ContentPlaceHolder1_txtEmail", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_txtEmail']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": "ljubica7puskarevic@gmail.com"
+    }, {
+      "id": "6f55fd2f-26dd-4cdc-868f-f44f513d7b68",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContentPlaceHolder1_txtConfirmEmail",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtConfirmEmail", "id"],
+        ["name=ctl00$ContentPlaceHolder1$txtConfirmEmail", "name"],
+        ["css=#ContentPlaceHolder1_txtConfirmEmail", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_txtConfirmEmail']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6c6732e-a715-4712-b61b-63021eb1cde4",
+      "comment": "",
+      "command": "type",
+      "target": "id=ContentPlaceHolder1_txtConfirmEmail",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtConfirmEmail", "id"],
+        ["name=ctl00$ContentPlaceHolder1$txtConfirmEmail", "name"],
+        ["css=#ContentPlaceHolder1_txtConfirmEmail", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_txtConfirmEmail']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "ljubica7puskarevic@gmail.com"
+    }, {
+      "id": "70b5afea-125d-4a5b-89f1-ef7b5a71944c",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContentPlaceHolder1_txtPassword",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtPassword", "id"],
+        ["name=ctl00$ContentPlaceHolder1$txtPassword", "name"],
+        ["css=#ContentPlaceHolder1_txtPassword", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_txtPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[4]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d57edd45-44a1-4884-afdf-fccd31614fc4",
+      "comment": "",
+      "command": "type",
+      "target": "id=ContentPlaceHolder1_txtPassword",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtPassword", "id"],
+        ["name=ctl00$ContentPlaceHolder1$txtPassword", "name"],
+        ["css=#ContentPlaceHolder1_txtPassword", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_txtPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[4]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/input", "xpath:position"]
+      ],
+      "value": "LjubicaTest1!"
+    }, {
+      "id": "2684230a-6930-42b3-8c2b-2f4b39187e93",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContentPlaceHolder1_txtPassword2",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtPassword2", "id"],
+        ["name=ctl00$ContentPlaceHolder1$txtPassword2", "name"],
+        ["css=#ContentPlaceHolder1_txtPassword2", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_txtPassword2']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "157726c2-5734-4a99-ae2e-afa794311567",
+      "comment": "",
+      "command": "type",
+      "target": "id=ContentPlaceHolder1_txtPassword2",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtPassword2", "id"],
+        ["name=ctl00$ContentPlaceHolder1$txtPassword2", "name"],
+        ["css=#ContentPlaceHolder1_txtPassword2", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_txtPassword2']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": "LjubicaTest1!"
+    }, {
+      "id": "61a5335f-33df-4da7-ad0c-2cf17a2be654",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-form-message:nth-child(6)",
+      "targets": [
+        ["css=.js-form-message:nth-child(6)", "css:finder"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[6]", "xpath:idRelative"],
+        ["xpath=//div[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "59599a52-31a2-4596-b1d3-afb248f9d12c",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContentPlaceHolder1_MyCheckBox",
+      "targets": [
+        ["id=ContentPlaceHolder1_MyCheckBox", "id"],
+        ["name=ctl00$ContentPlaceHolder1$MyCheckBox", "name"],
+        ["css=#ContentPlaceHolder1_MyCheckBox", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_MyCheckBox']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[6]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "81f46bd1-f340-480c-884b-990215ce0f64",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContentPlaceHolder1_SubscribeNewsletter",
+      "targets": [
+        ["id=ContentPlaceHolder1_SubscribeNewsletter", "id"],
+        ["name=ctl00$ContentPlaceHolder1$SubscribeNewsletter", "name"],
+        ["css=#ContentPlaceHolder1_SubscribeNewsletter", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_SubscribeNewsletter']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[7]/input", "xpath:idRelative"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c6fd0cd6-fd9c-428a-954e-13fefc4aaeb3",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "14b42912-c589-42a4-b75f-4680268b5589",
+      "comment": "",
+      "command": "click",
+      "target": "css=.recaptcha-checkbox-border",
+      "targets": [
+        ["css=.recaptcha-checkbox-border", "css:finder"],
+        ["xpath=//span[@id='recaptcha-anchor']/div", "xpath:idRelative"],
+        ["xpath=//span/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce09054d-c437-471d-9d73-d48b6c4ceed1",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "28e95377-50d3-497e-b0bc-e48adab4738b",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContentPlaceHolder1_btnRegister",
+      "targets": [
+        ["id=ContentPlaceHolder1_btnRegister", "id"],
+        ["name=ctl00$ContentPlaceHolder1$btnRegister", "name"],
+        ["css=#ContentPlaceHolder1_btnRegister", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_btnRegister']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/input", "xpath:idRelative"],
+        ["xpath=//form/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a15985c-2f29-4e8e-bc66-a9ca06b49588",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "745c09fe-2476-4052-b86b-41f358a10b65",
+    "name": "Invalid email format",
+    "commands": [{
+      "id": "1c591774-2451-4208-931f-306ac18cd6b4",
+      "comment": "",
+      "command": "open",
+      "target": "https://etherscan.io/register",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "178d50e0-dedb-4bd6-b9c4-79d490a9c054",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bc06f253-e613-4a07-8829-48c75410e843",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContentPlaceHolder1_txtUserName",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtUserName", "id"],
+        ["name=ctl00$ContentPlaceHolder1$txtUserName", "name"],
+        ["css=#ContentPlaceHolder1_txtUserName", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_txtUserName']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e6412d0-4e9b-45ec-95c5-a4daa987e977",
+      "comment": "",
+      "command": "type",
+      "target": "id=ContentPlaceHolder1_txtUserName",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtUserName", "id"],
+        ["name=ctl00$ContentPlaceHolder1$txtUserName", "name"],
+        ["css=#ContentPlaceHolder1_txtUserName", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_txtUserName']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "ljubica6puskarevic"
+    }, {
+      "id": "d4eec936-8fcd-43c8-b402-35b1469625ba",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContentPlaceHolder1_txtEmail",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtEmail", "id"],
+        ["name=ctl00$ContentPlaceHolder1$txtEmail", "name"],
+        ["css=#ContentPlaceHolder1_txtEmail", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_txtEmail']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3169a393-d80e-403b-8495-5faf7da8b777",
+      "comment": "",
+      "command": "type",
+      "target": "id=ContentPlaceHolder1_txtEmail",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtEmail", "id"],
+        ["name=ctl00$ContentPlaceHolder1$txtEmail", "name"],
+        ["css=#ContentPlaceHolder1_txtEmail", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_txtEmail']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": "ljubica7puskarevic.gmail.com"
+    }, {
+      "id": "ff763c9c-4c89-4bdf-9984-d1d7a90dcdc9",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContentPlaceHolder1_txtConfirmEmail",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtConfirmEmail", "id"],
+        ["name=ctl00$ContentPlaceHolder1$txtConfirmEmail", "name"],
+        ["css=#ContentPlaceHolder1_txtConfirmEmail", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_txtConfirmEmail']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb34e27d-5c31-47a8-91b4-673dda8407ed",
+      "comment": "",
+      "command": "type",
+      "target": "id=ContentPlaceHolder1_txtConfirmEmail",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtConfirmEmail", "id"],
+        ["name=ctl00$ContentPlaceHolder1$txtConfirmEmail", "name"],
+        ["css=#ContentPlaceHolder1_txtConfirmEmail", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_txtConfirmEmail']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "ljubica7puskarevic.gmail.com"
+    }, {
+      "id": "0ccbe4c7-0241-47f7-8d18-bf0fdf143a65",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContentPlaceHolder1_txtPassword",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtPassword", "id"],
+        ["name=ctl00$ContentPlaceHolder1$txtPassword", "name"],
+        ["css=#ContentPlaceHolder1_txtPassword", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_txtPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[4]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "477c0226-c0a4-4320-be0a-b938bfee0328",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContentPlaceHolder1_txtPassword2",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtPassword2", "id"],
+        ["name=ctl00$ContentPlaceHolder1$txtPassword2", "name"],
+        ["css=#ContentPlaceHolder1_txtPassword2", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_txtPassword2']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "85357bf9-95d8-4546-8c15-126d3094ea8e",
+      "comment": "",
+      "command": "type",
+      "target": "id=ContentPlaceHolder1_txtPassword2",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtPassword2", "id"],
+        ["name=ctl00$ContentPlaceHolder1$txtPassword2", "name"],
+        ["css=#ContentPlaceHolder1_txtPassword2", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_txtPassword2']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": "LjubicaTest1!"
+    }, {
+      "id": "f3d75d7d-11a8-4351-8677-bb593812f430",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContentPlaceHolder1_MyCheckBox",
+      "targets": [
+        ["id=ContentPlaceHolder1_MyCheckBox", "id"],
+        ["name=ctl00$ContentPlaceHolder1$MyCheckBox", "name"],
+        ["css=#ContentPlaceHolder1_MyCheckBox", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_MyCheckBox']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[6]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6201ef7e-cd0d-4010-869e-b210f4af0f24",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContentPlaceHolder1_SubscribeNewsletter",
+      "targets": [
+        ["id=ContentPlaceHolder1_SubscribeNewsletter", "id"],
+        ["name=ctl00$ContentPlaceHolder1$SubscribeNewsletter", "name"],
+        ["css=#ContentPlaceHolder1_SubscribeNewsletter", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_SubscribeNewsletter']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[7]/input", "xpath:idRelative"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "abe6b0c6-2e6e-4363-b3da-0878518fc9ef",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d3a2275-b5c4-4fc6-82e0-772cd5d19436",
+      "comment": "",
+      "command": "click",
+      "target": "css=.recaptcha-checkbox-border",
+      "targets": [
+        ["css=.recaptcha-checkbox-border", "css:finder"],
+        ["xpath=//span[@id='recaptcha-anchor']/div", "xpath:idRelative"],
+        ["xpath=//span/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "749644bc-a813-4f00-a7a0-84e1a10432c6",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c2e92b4-27e6-4658-b5d3-7378f988b224",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContentPlaceHolder1_btnRegister",
+      "targets": [
+        ["id=ContentPlaceHolder1_btnRegister", "id"],
+        ["name=ctl00$ContentPlaceHolder1$btnRegister", "name"],
+        ["css=#ContentPlaceHolder1_btnRegister", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_btnRegister']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/input", "xpath:idRelative"],
+        ["xpath=//form/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "8542985d-ea46-4bec-8b37-7b7bf3958595",
+    "name": "Username already taken",
+    "commands": [{
+      "id": "9af513bc-d9d4-4ccb-88c6-215fc3f1a64c",
+      "comment": "",
+      "command": "open",
+      "target": "https://etherscan.io/register",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3c80237b-ebdb-468f-ad2b-54dff481521a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d787af87-c067-45f1-a34e-d632de2f39d7",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContentPlaceHolder1_txtUserName",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtUserName", "id"],
+        ["name=ctl00$ContentPlaceHolder1$txtUserName", "name"],
+        ["css=#ContentPlaceHolder1_txtUserName", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_txtUserName']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f58d22ac-5463-41b6-9a88-037df89f7fc2",
+      "comment": "",
+      "command": "type",
+      "target": "id=ContentPlaceHolder1_txtUserName",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtUserName", "id"],
+        ["name=ctl00$ContentPlaceHolder1$txtUserName", "name"],
+        ["css=#ContentPlaceHolder1_txtUserName", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_txtUserName']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "ljubica7puskarevic"
+    }, {
+      "id": "78ccc371-59b8-4b53-aa34-86d7e5d9d8e9",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContentPlaceHolder1_txtEmail",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtEmail", "id"],
+        ["name=ctl00$ContentPlaceHolder1$txtEmail", "name"],
+        ["css=#ContentPlaceHolder1_txtEmail", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_txtEmail']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2d9579b-6c49-4ed5-b5b1-a35ff2562c0f",
+      "comment": "",
+      "command": "type",
+      "target": "id=ContentPlaceHolder1_txtEmail",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtEmail", "id"],
+        ["name=ctl00$ContentPlaceHolder1$txtEmail", "name"],
+        ["css=#ContentPlaceHolder1_txtEmail", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_txtEmail']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": "ljubica7puskarevic@gmail.com"
+    }, {
+      "id": "53d9cb98-9e0a-455a-a50e-1a8ac01541c2",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContentPlaceHolder1_txtConfirmEmail",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtConfirmEmail", "id"],
+        ["name=ctl00$ContentPlaceHolder1$txtConfirmEmail", "name"],
+        ["css=#ContentPlaceHolder1_txtConfirmEmail", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_txtConfirmEmail']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ba9c61a-0a1c-4d7e-98ff-c41b382b2000",
+      "comment": "",
+      "command": "type",
+      "target": "id=ContentPlaceHolder1_txtConfirmEmail",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtConfirmEmail", "id"],
+        ["name=ctl00$ContentPlaceHolder1$txtConfirmEmail", "name"],
+        ["css=#ContentPlaceHolder1_txtConfirmEmail", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_txtConfirmEmail']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "ljubica7puskarevic@gmail.com"
+    }, {
+      "id": "a41dc9f7-2fe6-4e79-9f32-38f772f64609",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContentPlaceHolder1_txtPassword",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtPassword", "id"],
+        ["name=ctl00$ContentPlaceHolder1$txtPassword", "name"],
+        ["css=#ContentPlaceHolder1_txtPassword", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_txtPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[4]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "62bc07c9-1b66-4c5f-b321-821677bd8cd2",
+      "comment": "",
+      "command": "type",
+      "target": "id=ContentPlaceHolder1_txtPassword",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtPassword", "id"],
+        ["name=ctl00$ContentPlaceHolder1$txtPassword", "name"],
+        ["css=#ContentPlaceHolder1_txtPassword", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_txtPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[4]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/input", "xpath:position"]
+      ],
+      "value": "LjubicaTest1!"
+    }, {
+      "id": "8332a0a1-64d9-419a-98a4-f0a57356ce6f",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContentPlaceHolder1_txtPassword2",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtPassword2", "id"],
+        ["name=ctl00$ContentPlaceHolder1$txtPassword2", "name"],
+        ["css=#ContentPlaceHolder1_txtPassword2", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_txtPassword2']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "935d3c0e-765e-4f2e-98f1-9be51ee3a02e",
+      "comment": "",
+      "command": "type",
+      "target": "id=ContentPlaceHolder1_txtPassword2",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtPassword2", "id"],
+        ["name=ctl00$ContentPlaceHolder1$txtPassword2", "name"],
+        ["css=#ContentPlaceHolder1_txtPassword2", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_txtPassword2']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": "LjubicaTest1!"
+    }, {
+      "id": "c0567163-6bc0-4c8f-92a0-c82adceede0b",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContentPlaceHolder1_MyCheckBox",
+      "targets": [
+        ["id=ContentPlaceHolder1_MyCheckBox", "id"],
+        ["name=ctl00$ContentPlaceHolder1$MyCheckBox", "name"],
+        ["css=#ContentPlaceHolder1_MyCheckBox", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_MyCheckBox']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[6]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1574df7f-d61d-4434-aa65-5ac823b9ef49",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContentPlaceHolder1_SubscribeNewsletter",
+      "targets": [
+        ["id=ContentPlaceHolder1_SubscribeNewsletter", "id"],
+        ["name=ctl00$ContentPlaceHolder1$SubscribeNewsletter", "name"],
+        ["css=#ContentPlaceHolder1_SubscribeNewsletter", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_SubscribeNewsletter']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[7]/input", "xpath:idRelative"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a99a7436-bf4b-4bd5-871c-faf3e3a64fdc",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "b932d44a-b078-4113-a3c0-d0ebfc8d9339",
+      "comment": "",
+      "command": "click",
+      "target": "css=.recaptcha-checkbox-border",
+      "targets": [
+        ["css=.recaptcha-checkbox-border", "css:finder"],
+        ["xpath=//span[@id='recaptcha-anchor']/div", "xpath:idRelative"],
+        ["xpath=//span/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "71d30a4a-b0d9-48ab-aaed-c38da90b96e1",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "a6fcbdc7-932a-4c8a-99e3-f5e08e27bce9",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContentPlaceHolder1_btnRegister",
+      "targets": [
+        ["id=ContentPlaceHolder1_btnRegister", "id"],
+        ["name=ctl00$ContentPlaceHolder1$btnRegister", "name"],
+        ["css=#ContentPlaceHolder1_btnRegister", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_btnRegister']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/input", "xpath:idRelative"],
+        ["xpath=//form/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "093f23fb-558e-46af-b5cc-592da5262bb8",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.alert-danger",
+      "targets": [
+        ["css=.alert-danger", "css:finder"],
+        ["xpath=//form[@id='ctl00']/div[3]", "xpath:idRelative"],
+        ["xpath=//form/div[3]", "xpath:position"]
+      ],
+      "value": "Sorry! The username you entered is already in use."
+    }]
+  }, {
+    "id": "95dc9dd1-9b48-451c-a39c-17781027cb7a",
+    "name": "Password mismatch",
+    "commands": []
+  }, {
+    "id": "b2cf4774-cc81-4758-85d8-2897ca268c40",
+    "name": "Weak password",
+    "commands": [{
+      "id": "7dc76f00-e5c6-43a6-8166-5d42ee9e7a8e",
+      "comment": "",
+      "command": "open",
+      "target": "https://etherscan.io/register",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a752ed5c-16f8-4d9d-8deb-5eb52c0a7cf1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "be252ab5-d6cc-40ad-a3ed-ad3af723e1b3",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContentPlaceHolder1_txtUserName",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtUserName", "id"],
+        ["name=ctl00$ContentPlaceHolder1$txtUserName", "name"],
+        ["css=#ContentPlaceHolder1_txtUserName", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_txtUserName']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3171cfa4-a810-495a-abda-428d96a783ae",
+      "comment": "",
+      "command": "type",
+      "target": "id=ContentPlaceHolder1_txtUserName",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtUserName", "id"],
+        ["name=ctl00$ContentPlaceHolder1$txtUserName", "name"],
+        ["css=#ContentPlaceHolder1_txtUserName", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_txtUserName']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "ljubica5puskarevic"
+    }, {
+      "id": "846102df-e444-42a2-ad83-7d6ab2331eed",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContentPlaceHolder1_txtEmail",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtEmail", "id"],
+        ["name=ctl00$ContentPlaceHolder1$txtEmail", "name"],
+        ["css=#ContentPlaceHolder1_txtEmail", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_txtEmail']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "05f7ec41-4416-4d0c-b1a5-f4288f38320a",
+      "comment": "",
+      "command": "type",
+      "target": "id=ContentPlaceHolder1_txtEmail",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtEmail", "id"],
+        ["name=ctl00$ContentPlaceHolder1$txtEmail", "name"],
+        ["css=#ContentPlaceHolder1_txtEmail", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_txtEmail']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": "ljubica5puskarevic@gmail.com"
+    }, {
+      "id": "e3ebeb53-bee2-428c-982b-6c10688e49eb",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContentPlaceHolder1_txtConfirmEmail",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtConfirmEmail", "id"],
+        ["name=ctl00$ContentPlaceHolder1$txtConfirmEmail", "name"],
+        ["css=#ContentPlaceHolder1_txtConfirmEmail", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_txtConfirmEmail']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a6c9f92e-42c2-46f6-8d48-75d7be031442",
+      "comment": "",
+      "command": "type",
+      "target": "id=ContentPlaceHolder1_txtConfirmEmail",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtConfirmEmail", "id"],
+        ["name=ctl00$ContentPlaceHolder1$txtConfirmEmail", "name"],
+        ["css=#ContentPlaceHolder1_txtConfirmEmail", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_txtConfirmEmail']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "ljubica5puskarevic@gmail.com"
+    }, {
+      "id": "ff545589-1646-4e40-8925-b16b7ced2607",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContentPlaceHolder1_txtPassword",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtPassword", "id"],
+        ["name=ctl00$ContentPlaceHolder1$txtPassword", "name"],
+        ["css=#ContentPlaceHolder1_txtPassword", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_txtPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[4]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f009218-205f-4188-b0c9-21d9e342c27d",
+      "comment": "",
+      "command": "type",
+      "target": "id=ContentPlaceHolder1_txtPassword",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtPassword", "id"],
+        ["name=ctl00$ContentPlaceHolder1$txtPassword", "name"],
+        ["css=#ContentPlaceHolder1_txtPassword", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_txtPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[4]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/input", "xpath:position"]
+      ],
+      "value": "111111"
+    }, {
+      "id": "c8b4a85e-14d9-4238-9503-013889e59ca4",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=ContentPlaceHolder1_txtPassword-error",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtPassword-error", "id"],
+        ["css=#ContentPlaceHolder1_txtPassword-error", "css:finder"],
+        ["xpath=//div[@id='ContentPlaceHolder1_txtPassword-error']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[4]/div[3]", "xpath:idRelative"],
+        ["xpath=//div[4]/div[3]", "xpath:position"]
+      ],
+      "value": "Your password must be at least 8 characters long."
+    }]
+  }, {
+    "id": "67639af0-4946-47b5-aa15-600dba4edee2",
+    "name": "Email already registered_Bug",
+    "commands": [{
+      "id": "12da90d8-11d9-4f24-b4ec-41dcbef4d449",
+      "comment": "",
+      "command": "open",
+      "target": "https://etherscan.io/register",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "74fa92f3-0ff8-4479-aa4f-4b09ca5ca5ec",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "773eac00-d7f9-4114-a2bc-ab1fabde2786",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContentPlaceHolder1_txtUserName",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtUserName", "id"],
+        ["name=ctl00$ContentPlaceHolder1$txtUserName", "name"],
+        ["css=#ContentPlaceHolder1_txtUserName", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_txtUserName']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "20a7a937-a2e9-44cb-a9d7-4c6d42b743db",
+      "comment": "",
+      "command": "type",
+      "target": "id=ContentPlaceHolder1_txtUserName",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtUserName", "id"],
+        ["name=ctl00$ContentPlaceHolder1$txtUserName", "name"],
+        ["css=#ContentPlaceHolder1_txtUserName", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_txtUserName']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "ljubica10puskarevic"
+    }, {
+      "id": "17dcd42a-fdad-4b3b-9f16-f8b1d6dc8dcc",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContentPlaceHolder1_txtEmail",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtEmail", "id"],
+        ["name=ctl00$ContentPlaceHolder1$txtEmail", "name"],
+        ["css=#ContentPlaceHolder1_txtEmail", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_txtEmail']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd9cecc3-f6fd-40a3-b392-35c0ed69d749",
+      "comment": "",
+      "command": "type",
+      "target": "id=ContentPlaceHolder1_txtEmail",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtEmail", "id"],
+        ["name=ctl00$ContentPlaceHolder1$txtEmail", "name"],
+        ["css=#ContentPlaceHolder1_txtEmail", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_txtEmail']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": "ljubica7puskarevic@gmail.com"
+    }, {
+      "id": "3e4fcb9e-334b-40fb-96f7-29459eb89777",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContentPlaceHolder1_txtConfirmEmail",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtConfirmEmail", "id"],
+        ["name=ctl00$ContentPlaceHolder1$txtConfirmEmail", "name"],
+        ["css=#ContentPlaceHolder1_txtConfirmEmail", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_txtConfirmEmail']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b5fffb4b-0194-4860-9c0c-a0a326fb4f96",
+      "comment": "",
+      "command": "type",
+      "target": "id=ContentPlaceHolder1_txtConfirmEmail",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtConfirmEmail", "id"],
+        ["name=ctl00$ContentPlaceHolder1$txtConfirmEmail", "name"],
+        ["css=#ContentPlaceHolder1_txtConfirmEmail", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_txtConfirmEmail']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "ljubica7puskarevic@gmail.com"
+    }, {
+      "id": "9cd19f2b-144d-48f7-b6b1-6f7622ec5937",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContentPlaceHolder1_txtPassword",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtPassword", "id"],
+        ["name=ctl00$ContentPlaceHolder1$txtPassword", "name"],
+        ["css=#ContentPlaceHolder1_txtPassword", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_txtPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[4]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "19caa923-2e6a-4e78-a990-076901196372",
+      "comment": "",
+      "command": "type",
+      "target": "id=ContentPlaceHolder1_txtPassword",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtPassword", "id"],
+        ["name=ctl00$ContentPlaceHolder1$txtPassword", "name"],
+        ["css=#ContentPlaceHolder1_txtPassword", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_txtPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[4]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/input", "xpath:position"]
+      ],
+      "value": "LjubicaTest1!"
+    }, {
+      "id": "c3aae7af-5d87-43cf-a1b0-0e12f97ed947",
+      "comment": "",
+      "command": "type",
+      "target": "id=ContentPlaceHolder1_txtPassword2",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtPassword2", "id"],
+        ["name=ctl00$ContentPlaceHolder1$txtPassword2", "name"],
+        ["css=#ContentPlaceHolder1_txtPassword2", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_txtPassword2']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": "LjubicaTest1!"
+    }, {
+      "id": "c99c639c-5102-479d-abe7-99a720bed8cd",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContentPlaceHolder1_MyCheckBox",
+      "targets": [
+        ["id=ContentPlaceHolder1_MyCheckBox", "id"],
+        ["name=ctl00$ContentPlaceHolder1$MyCheckBox", "name"],
+        ["css=#ContentPlaceHolder1_MyCheckBox", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_MyCheckBox']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[6]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4f46659-cbb2-4dfd-8e84-eba1cc3a12d3",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContentPlaceHolder1_SubscribeNewsletter",
+      "targets": [
+        ["id=ContentPlaceHolder1_SubscribeNewsletter", "id"],
+        ["name=ctl00$ContentPlaceHolder1$SubscribeNewsletter", "name"],
+        ["css=#ContentPlaceHolder1_SubscribeNewsletter", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_SubscribeNewsletter']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[7]/input", "xpath:idRelative"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a5c9d82-29a2-4d5f-8e50-61d3e62a6e28",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "63388a2d-dbe0-4022-acb8-c62962370f15",
+      "comment": "",
+      "command": "click",
+      "target": "css=.recaptcha-checkbox-border",
+      "targets": [
+        ["css=.recaptcha-checkbox-border", "css:finder"],
+        ["xpath=//span[@id='recaptcha-anchor']/div", "xpath:idRelative"],
+        ["xpath=//span/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0001c91d-9fc9-4c49-9846-bf689ae6daeb",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c741e6b-3baf-458a-9f26-ad8cc8fc2dc5",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContentPlaceHolder1_btnRegister",
+      "targets": [
+        ["id=ContentPlaceHolder1_btnRegister", "id"],
+        ["name=ctl00$ContentPlaceHolder1$btnRegister", "name"],
+        ["css=#ContentPlaceHolder1_btnRegister", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_btnRegister']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/input", "xpath:idRelative"],
+        ["xpath=//form/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3dfb10e-6c26-4143-9dd9-d697230f0ef8",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.alert > strong",
+      "targets": [
+        ["css=.alert > strong", "css:finder"],
+        ["xpath=//form[@id='ctl00']/div[3]/strong", "xpath:idRelative"],
+        ["xpath=//strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'pending email verification')]", "xpath:innerText"]
+      ],
+      "value": "pending email verification"
+    }, {
+      "id": "8c5eddbe-9052-4a03-81bd-d4c4029fb37b",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "6a1990d5-5d2f-4e7c-8b62-5412ef8bd8c5",
+    "name": "Empty fields",
+    "commands": [{
+      "id": "78570372-0c15-4452-9ab1-c89db25bd565",
+      "comment": "",
+      "command": "open",
+      "target": "https://etherscan.io/register",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "12cfd626-6a16-48f4-b063-0437e15e2807",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5d486a1b-9f6d-408a-8fb9-ee620f6cf2f7",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContentPlaceHolder1_btnRegister",
+      "targets": [
+        ["id=ContentPlaceHolder1_btnRegister", "id"],
+        ["name=ctl00$ContentPlaceHolder1$btnRegister", "name"],
+        ["css=#ContentPlaceHolder1_btnRegister", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_btnRegister']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/input", "xpath:idRelative"],
+        ["xpath=//form/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "49f42ca0-9edb-4db2-a87f-f8bec7d29dde",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=ContentPlaceHolder1_txtUserName-error",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtUserName-error", "id"],
+        ["css=#ContentPlaceHolder1_txtUserName-error", "css:finder"],
+        ["xpath=//div[@id='ContentPlaceHolder1_txtUserName-error']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div", "xpath:position"]
+      ],
+      "value": "Please enter Username."
+    }, {
+      "id": "572fd171-624e-41ff-b1a3-992051555eb4",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=ContentPlaceHolder1_txtEmail-error",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtEmail-error", "id"],
+        ["css=#ContentPlaceHolder1_txtEmail-error", "css:finder"],
+        ["xpath=//div[@id='ContentPlaceHolder1_txtEmail-error']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div", "xpath:position"]
+      ],
+      "value": "Please enter a valid email address."
+    }, {
+      "id": "160d0471-b601-43ba-a085-bbf5bb850af3",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=ContentPlaceHolder1_txtConfirmEmail-error",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtConfirmEmail-error", "id"],
+        ["css=#ContentPlaceHolder1_txtConfirmEmail-error", "css:finder"],
+        ["xpath=//div[@id='ContentPlaceHolder1_txtConfirmEmail-error']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div[3]/div", "xpath:position"]
+      ],
+      "value": "Please re-enter your email address."
+    }, {
+      "id": "df4a78d8-2aed-4d4a-85f5-10f9a43c3c98",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=ContentPlaceHolder1_txtPassword-error",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtPassword-error", "id"],
+        ["css=#ContentPlaceHolder1_txtPassword-error", "css:finder"],
+        ["xpath=//div[@id='ContentPlaceHolder1_txtPassword-error']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[4]/div[3]", "xpath:idRelative"],
+        ["xpath=//div[4]/div[3]", "xpath:position"]
+      ],
+      "value": "Please enter Password."
+    }, {
+      "id": "6a78187f-f0f7-4176-98c0-05b3687e0cbd",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=ContentPlaceHolder1_txtPassword2-error",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtPassword2-error", "id"],
+        ["css=#ContentPlaceHolder1_txtPassword2-error", "css:finder"],
+        ["xpath=//div[@id='ContentPlaceHolder1_txtPassword2-error']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[5]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/div[2]", "xpath:position"]
+      ],
+      "value": "Your password must be at least 8 characters long."
+    }, {
+      "id": "aec1c3ae-1818-4eaf-8e66-7a134de0c97a",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=ctl00$ContentPlaceHolder1$MyCheckBox-error",
+      "targets": [
+        ["id=ctl00$ContentPlaceHolder1$MyCheckBox-error", "id"],
+        ["css=#ctl00\\$ContentPlaceHolder1\\$MyCheckBox-error", "css:finder"],
+        ["xpath=//div[@id='ctl00$ContentPlaceHolder1$MyCheckBox-error']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[6]/div", "xpath:idRelative"],
+        ["xpath=//div[6]/div", "xpath:position"]
+      ],
+      "value": "Please accept our Terms and Conditions."
+    }, {
+      "id": "28c4412a-689b-466a-94fc-3e52b92f0e17",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContentPlaceHolder1_txtUserName",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtUserName", "id"],
+        ["name=ctl00$ContentPlaceHolder1$txtUserName", "name"],
+        ["css=#ContentPlaceHolder1_txtUserName", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_txtUserName']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa9abacb-ecba-47b3-8349-3c8c4db47fe8",
+      "comment": "",
+      "command": "type",
+      "target": "id=ContentPlaceHolder1_txtUserName",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtUserName", "id"],
+        ["name=ctl00$ContentPlaceHolder1$txtUserName", "name"],
+        ["css=#ContentPlaceHolder1_txtUserName", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_txtUserName']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "ljubica11puskarevic"
+    }, {
+      "id": "2ed2975f-40bb-44e7-8f96-2298d6b1d1fd",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContentPlaceHolder1_btnRegister",
+      "targets": [
+        ["id=ContentPlaceHolder1_btnRegister", "id"],
+        ["name=ctl00$ContentPlaceHolder1$btnRegister", "name"],
+        ["css=#ContentPlaceHolder1_btnRegister", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_btnRegister']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/input", "xpath:idRelative"],
+        ["xpath=//form/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4e4c4dc-ab0c-4c75-b388-e4b394e6259c",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=ContentPlaceHolder1_txtEmail-error",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtEmail-error", "id"],
+        ["css=#ContentPlaceHolder1_txtEmail-error", "css:finder"],
+        ["xpath=//div[@id='ContentPlaceHolder1_txtEmail-error']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div", "xpath:position"]
+      ],
+      "value": "Please enter a valid email address."
+    }, {
+      "id": "215dd9df-76b7-4f94-9542-68998d51611e",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=ContentPlaceHolder1_txtConfirmEmail-error",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtConfirmEmail-error", "id"],
+        ["css=#ContentPlaceHolder1_txtConfirmEmail-error", "css:finder"],
+        ["xpath=//div[@id='ContentPlaceHolder1_txtConfirmEmail-error']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div[3]/div", "xpath:position"]
+      ],
+      "value": "Please re-enter your email address."
+    }, {
+      "id": "62c68a97-28f7-487d-9a64-9546661c6f89",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=ContentPlaceHolder1_txtPassword-error",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtPassword-error", "id"],
+        ["css=#ContentPlaceHolder1_txtPassword-error", "css:finder"],
+        ["xpath=//div[@id='ContentPlaceHolder1_txtPassword-error']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[4]/div[3]", "xpath:idRelative"],
+        ["xpath=//div[4]/div[3]", "xpath:position"]
+      ],
+      "value": "Please enter Password."
+    }, {
+      "id": "fd5ed05f-747f-4d68-82e2-333716796c2a",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=ContentPlaceHolder1_txtPassword2-error",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtPassword2-error", "id"],
+        ["css=#ContentPlaceHolder1_txtPassword2-error", "css:finder"],
+        ["xpath=//div[@id='ContentPlaceHolder1_txtPassword2-error']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[5]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/div[2]", "xpath:position"]
+      ],
+      "value": "Your password must be at least 8 characters long."
+    }, {
+      "id": "667d64a4-6a0b-4cea-9072-875f002b07d5",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=ctl00$ContentPlaceHolder1$MyCheckBox-error",
+      "targets": [
+        ["id=ctl00$ContentPlaceHolder1$MyCheckBox-error", "id"],
+        ["css=#ctl00\\$ContentPlaceHolder1\\$MyCheckBox-error", "css:finder"],
+        ["xpath=//div[@id='ctl00$ContentPlaceHolder1$MyCheckBox-error']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[6]/div", "xpath:idRelative"],
+        ["xpath=//div[6]/div", "xpath:position"]
+      ],
+      "value": "Please accept our Terms and Conditions."
+    }, {
+      "id": "79c520ce-7d97-471d-a00a-f69f713f1831",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContentPlaceHolder1_txtEmail",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtEmail", "id"],
+        ["name=ctl00$ContentPlaceHolder1$txtEmail", "name"],
+        ["css=#ContentPlaceHolder1_txtEmail", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_txtEmail']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c178edc8-5da1-4bd2-8b32-3f11796679f9",
+      "comment": "",
+      "command": "type",
+      "target": "id=ContentPlaceHolder1_txtEmail",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtEmail", "id"],
+        ["name=ctl00$ContentPlaceHolder1$txtEmail", "name"],
+        ["css=#ContentPlaceHolder1_txtEmail", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_txtEmail']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": "ljubica7puskarevic@gmail.com"
+    }, {
+      "id": "00ac8181-3a71-4efa-acc2-2d755f875793",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContentPlaceHolder1_btnRegister",
+      "targets": [
+        ["id=ContentPlaceHolder1_btnRegister", "id"],
+        ["name=ctl00$ContentPlaceHolder1$btnRegister", "name"],
+        ["css=#ContentPlaceHolder1_btnRegister", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_btnRegister']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/input", "xpath:idRelative"],
+        ["xpath=//form/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e141d6ff-1244-4f5f-9fbe-62d77158ddd9",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=ContentPlaceHolder1_txtConfirmEmail-error",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtConfirmEmail-error", "id"],
+        ["css=#ContentPlaceHolder1_txtConfirmEmail-error", "css:finder"],
+        ["xpath=//div[@id='ContentPlaceHolder1_txtConfirmEmail-error']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div[3]/div", "xpath:position"]
+      ],
+      "value": "Please re-enter your email address."
+    }, {
+      "id": "c3d9f350-48a0-4a69-ab18-df711a46425f",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=ContentPlaceHolder1_txtPassword-error",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtPassword-error", "id"],
+        ["css=#ContentPlaceHolder1_txtPassword-error", "css:finder"],
+        ["xpath=//div[@id='ContentPlaceHolder1_txtPassword-error']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[4]/div[3]", "xpath:idRelative"],
+        ["xpath=//div[4]/div[3]", "xpath:position"]
+      ],
+      "value": "Please enter Password."
+    }, {
+      "id": "a3918b38-2adf-4411-9f67-9b76d6371d58",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=ContentPlaceHolder1_txtPassword2-error",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtPassword2-error", "id"],
+        ["css=#ContentPlaceHolder1_txtPassword2-error", "css:finder"],
+        ["xpath=//div[@id='ContentPlaceHolder1_txtPassword2-error']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[5]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/div[2]", "xpath:position"]
+      ],
+      "value": "Your password must be at least 8 characters long."
+    }, {
+      "id": "124a2d9c-79da-40c1-89da-445cb6d47235",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=ctl00$ContentPlaceHolder1$MyCheckBox-error",
+      "targets": [
+        ["id=ctl00$ContentPlaceHolder1$MyCheckBox-error", "id"],
+        ["css=#ctl00\\$ContentPlaceHolder1\\$MyCheckBox-error", "css:finder"],
+        ["xpath=//div[@id='ctl00$ContentPlaceHolder1$MyCheckBox-error']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[6]/div", "xpath:idRelative"],
+        ["xpath=//div[6]/div", "xpath:position"]
+      ],
+      "value": "Please accept our Terms and Conditions."
+    }, {
+      "id": "19b841b3-f39d-47c6-9637-8d1c763ee507",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContentPlaceHolder1_txtConfirmEmail",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtConfirmEmail", "id"],
+        ["name=ctl00$ContentPlaceHolder1$txtConfirmEmail", "name"],
+        ["css=#ContentPlaceHolder1_txtConfirmEmail", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_txtConfirmEmail']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "61a548e4-9cd0-4994-aa3b-b98d5db1dc53",
+      "comment": "",
+      "command": "type",
+      "target": "id=ContentPlaceHolder1_txtConfirmEmail",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtConfirmEmail", "id"],
+        ["name=ctl00$ContentPlaceHolder1$txtConfirmEmail", "name"],
+        ["css=#ContentPlaceHolder1_txtConfirmEmail", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_txtConfirmEmail']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "ljubica7puskarevic@gmail.com"
+    }, {
+      "id": "01241615-3ef6-4e6e-ab71-d4a108a6cbf1",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContentPlaceHolder1_btnRegister",
+      "targets": [
+        ["id=ContentPlaceHolder1_btnRegister", "id"],
+        ["name=ctl00$ContentPlaceHolder1$btnRegister", "name"],
+        ["css=#ContentPlaceHolder1_btnRegister", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_btnRegister']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/input", "xpath:idRelative"],
+        ["xpath=//form/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c3a12ea-47d8-4ddc-b12f-4a3d77b3cf76",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=ContentPlaceHolder1_txtPassword-error",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtPassword-error", "id"],
+        ["css=#ContentPlaceHolder1_txtPassword-error", "css:finder"],
+        ["xpath=//div[@id='ContentPlaceHolder1_txtPassword-error']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[4]/div[3]", "xpath:idRelative"],
+        ["xpath=//div[4]/div[3]", "xpath:position"]
+      ],
+      "value": "Please enter Password."
+    }, {
+      "id": "85fd345c-f6cf-496d-a6d8-0c92d5328ab8",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=ContentPlaceHolder1_txtPassword2-error",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtPassword2-error", "id"],
+        ["css=#ContentPlaceHolder1_txtPassword2-error", "css:finder"],
+        ["xpath=//div[@id='ContentPlaceHolder1_txtPassword2-error']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[5]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/div[2]", "xpath:position"]
+      ],
+      "value": "Your password must be at least 8 characters long."
+    }, {
+      "id": "4bf13efc-cafe-4b79-8205-556971cbd657",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=ctl00$ContentPlaceHolder1$MyCheckBox-error",
+      "targets": [
+        ["id=ctl00$ContentPlaceHolder1$MyCheckBox-error", "id"],
+        ["css=#ctl00\\$ContentPlaceHolder1\\$MyCheckBox-error", "css:finder"],
+        ["xpath=//div[@id='ctl00$ContentPlaceHolder1$MyCheckBox-error']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[6]/div", "xpath:idRelative"],
+        ["xpath=//div[6]/div", "xpath:position"]
+      ],
+      "value": "Please accept our Terms and Conditions."
+    }, {
+      "id": "6d5725c2-63a6-4d85-b093-e3e6105df72e",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContentPlaceHolder1_txtPassword",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtPassword", "id"],
+        ["name=ctl00$ContentPlaceHolder1$txtPassword", "name"],
+        ["css=#ContentPlaceHolder1_txtPassword", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_txtPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[4]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d6770ab0-0ad3-460e-954a-ad9bed298f2c",
+      "comment": "",
+      "command": "type",
+      "target": "id=ContentPlaceHolder1_txtPassword",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtPassword", "id"],
+        ["name=ctl00$ContentPlaceHolder1$txtPassword", "name"],
+        ["css=#ContentPlaceHolder1_txtPassword", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_txtPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[4]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/input", "xpath:position"]
+      ],
+      "value": "LjubicaTest1!"
+    }, {
+      "id": "7bba57ff-0ada-4586-a18a-258033b2d35e",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContentPlaceHolder1_btnRegister",
+      "targets": [
+        ["id=ContentPlaceHolder1_btnRegister", "id"],
+        ["name=ctl00$ContentPlaceHolder1$btnRegister", "name"],
+        ["css=#ContentPlaceHolder1_btnRegister", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_btnRegister']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/input", "xpath:idRelative"],
+        ["xpath=//form/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "41a48d7a-401d-490e-beff-97b7ab67f539",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=ContentPlaceHolder1_txtPassword2-error",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtPassword2-error", "id"],
+        ["css=#ContentPlaceHolder1_txtPassword2-error", "css:finder"],
+        ["xpath=//div[@id='ContentPlaceHolder1_txtPassword2-error']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[5]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/div[2]", "xpath:position"]
+      ],
+      "value": "Your password must be at least 8 characters long."
+    }, {
+      "id": "aa1dc525-e8b4-4350-aa38-3ae4bed3f91a",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=ctl00$ContentPlaceHolder1$MyCheckBox-error",
+      "targets": [
+        ["id=ctl00$ContentPlaceHolder1$MyCheckBox-error", "id"],
+        ["css=#ctl00\\$ContentPlaceHolder1\\$MyCheckBox-error", "css:finder"],
+        ["xpath=//div[@id='ctl00$ContentPlaceHolder1$MyCheckBox-error']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[6]/div", "xpath:idRelative"],
+        ["xpath=//div[6]/div", "xpath:position"]
+      ],
+      "value": "Please accept our Terms and Conditions."
+    }, {
+      "id": "ddf1c8c5-798f-4e27-be72-0a3183124792",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContentPlaceHolder1_txtPassword2",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtPassword2", "id"],
+        ["name=ctl00$ContentPlaceHolder1$txtPassword2", "name"],
+        ["css=#ContentPlaceHolder1_txtPassword2", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_txtPassword2']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8fadde5c-e763-4b75-8531-4fe3ed556082",
+      "comment": "",
+      "command": "type",
+      "target": "id=ContentPlaceHolder1_txtPassword2",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtPassword2", "id"],
+        ["name=ctl00$ContentPlaceHolder1$txtPassword2", "name"],
+        ["css=#ContentPlaceHolder1_txtPassword2", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_txtPassword2']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": "LjubicaTest1!"
+    }, {
+      "id": "54854367-48b9-4f1c-b766-93287ee16f71",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContentPlaceHolder1_btnRegister",
+      "targets": [
+        ["id=ContentPlaceHolder1_btnRegister", "id"],
+        ["name=ctl00$ContentPlaceHolder1$btnRegister", "name"],
+        ["css=#ContentPlaceHolder1_btnRegister", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_btnRegister']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/input", "xpath:idRelative"],
+        ["xpath=//form/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "03337d7e-2f38-4962-891d-c32ccb9ea902",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=ctl00$ContentPlaceHolder1$MyCheckBox-error",
+      "targets": [
+        ["id=ctl00$ContentPlaceHolder1$MyCheckBox-error", "id"],
+        ["css=#ctl00\\$ContentPlaceHolder1\\$MyCheckBox-error", "css:finder"],
+        ["xpath=//div[@id='ctl00$ContentPlaceHolder1$MyCheckBox-error']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[6]/div", "xpath:idRelative"],
+        ["xpath=//div[6]/div", "xpath:position"]
+      ],
+      "value": "Please accept our Terms and Conditions."
+    }, {
+      "id": "d05e25ae-7220-472a-b2e3-9f34d9783d1f",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContentPlaceHolder1_MyCheckBox",
+      "targets": [
+        ["id=ContentPlaceHolder1_MyCheckBox", "id"],
+        ["name=ctl00$ContentPlaceHolder1$MyCheckBox", "name"],
+        ["css=#ContentPlaceHolder1_MyCheckBox", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_MyCheckBox']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[6]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c3cd709-ca5d-4b2a-ade0-baad45e9dd5d",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContentPlaceHolder1_btnRegister",
+      "targets": [
+        ["id=ContentPlaceHolder1_btnRegister", "id"],
+        ["name=ctl00$ContentPlaceHolder1$btnRegister", "name"],
+        ["css=#ContentPlaceHolder1_btnRegister", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_btnRegister']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/input", "xpath:idRelative"],
+        ["xpath=//form/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "436e162a-6208-48f0-98ba-db04fe1ed1ed",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.alert-danger",
+      "targets": [
+        ["css=.alert-danger", "css:finder"],
+        ["xpath=//form[@id='ctl00']/div[3]", "xpath:idRelative"],
+        ["xpath=//form/div[3]", "xpath:position"]
+      ],
+      "value": "Error! Invalid captcha response.\\nPlease Try Again"
+    }, {
+      "id": "cd3fb5d3-d4a6-43fe-b601-67c896032e7e",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContentPlaceHolder1_txtPassword",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtPassword", "id"],
+        ["name=ctl00$ContentPlaceHolder1$txtPassword", "name"],
+        ["css=#ContentPlaceHolder1_txtPassword", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_txtPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[4]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div[4]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "891de24c-52a0-42a2-ae9d-36857b732cc6",
+      "comment": "",
+      "command": "type",
+      "target": "id=ContentPlaceHolder1_txtPassword",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtPassword", "id"],
+        ["name=ctl00$ContentPlaceHolder1$txtPassword", "name"],
+        ["css=#ContentPlaceHolder1_txtPassword", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_txtPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[4]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div[4]/div[2]/input", "xpath:position"]
+      ],
+      "value": "LjubicaTest1!"
+    }, {
+      "id": "327d9c0f-17df-4eab-8e06-477f3d4541a3",
+      "comment": "",
+      "command": "type",
+      "target": "id=ContentPlaceHolder1_txtPassword2",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtPassword2", "id"],
+        ["name=ctl00$ContentPlaceHolder1$txtPassword2", "name"],
+        ["css=#ContentPlaceHolder1_txtPassword2", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_txtPassword2']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/div[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": "LjubicaTest1!"
+    }, {
+      "id": "43086613-e87c-43b1-a24c-2d2f823e62a9",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=1",
+      "targets": [
+        ["index=1"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0b55490-d450-40ad-a6a2-8e2ea2592fd1",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e7648d8-318f-4b02-8109-2e794de2fec4",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContentPlaceHolder1_btnRegister",
+      "targets": [
+        ["id=ContentPlaceHolder1_btnRegister", "id"],
+        ["name=ctl00$ContentPlaceHolder1$btnRegister", "name"],
+        ["css=#ContentPlaceHolder1_btnRegister", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_btnRegister']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_maindiv']/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c88e8a74-d28b-4ff7-8f96-b99e6d02afca",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "bd8a28d1-a42f-42ab-a447-3c3df1f40d66",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://etherscan.io/register"],
+  "plugins": []
+}
